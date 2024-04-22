@@ -1,0 +1,78 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(249, 0, 0, 0.87);
+  background-color: #320074;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Estilos para o título */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: aqua;
+  margin-bottom: 2em;
+}
+
+/* Estilos para links */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00066f;
+}
+
+/* Estilos para botões */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2a0f4d;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-right: 0.5em;
+}
+
+button:hover {
+  border-color: #b4ff64;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Estilos para o formulário */
+.form-container {
+  margin-bottom: 2em;
+}
+
+/* Estilos para a lista de livros */
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para cada item da lista de livros */
+.list-item {
+  margin-bottom: 1em;
+}
